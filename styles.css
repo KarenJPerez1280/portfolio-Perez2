@@ -1,0 +1,29 @@
+.hero {
+    text-align: center;
+    background-color: #F9F7FE;
+    color: #000000;
+    padding: 160px 20px;
+}
+
+h1 {
+
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    font-size: 64px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 30px;
+
+}
