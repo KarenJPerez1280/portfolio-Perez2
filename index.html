@@ -29,11 +29,33 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Karen Perez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Me</a>
+                    </li>
 
+                </ul>
+            </div>
+    </nav>
 
     <div class=" hero">
+
         <h2>
-            🙋🏻‍♀️ Hi, I am
+            👋🏼 Hi, I am
         </h2>
         <h1 class="fw-bold">Karen Perez</h1>
         <h3>Electronics Engineer & Front-end developer, based in U.S.</h3>
@@ -42,17 +64,19 @@
     <p class="parragraph">
         Here are my featured projects!
     </p>
-    <div class="container">
-        <div class="row projects-display">
+    <div class="projects">
+        <div class="row ">
             <div class="col-6 d-none d-lg-block">
-                <img class="img-thumbnail img-fluid adoption-image" src="images/adoption.png" alt="adoption">
+                <img class="img-thumbnail img-fluid image" src="images/adoption.png" alt="adoption">
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
                 <p class="parragraph">
                     Adoption landing page
                 </p>
-                <p>
-                    Styling an HTML page with CSS using a popular coding technology such as Visual Studio Code.
+                <p class="m-5">
+                    Styling an HTML page with CSS using a popular coding technology such as Visual Studio Code.th CSS
+                    using a popular coding technology such as Visual Studio Code.th CSS using a popular coding
+                    technology such as Visual Studio Code.
                 </p>
 
                 </br>
@@ -61,34 +85,36 @@
                     Adoption APP</a>
             </div>
         </div>
-        <div class="row projects-display  ">
-            <div class="col-sm-6 ">
+        <div class="row">
+            <div class="col-sm-5 ">
                 <p class="parragraph">
                     React-Weather App
                 </p>
-                <p>
+                <p class="m-5">
                     Using bootstrap, real-life development workflow, hosting, and advanced JavaScript. I combined all of
                     these skills to create a fully-functioning weather app.
-                </p> </br>
+                </p>
+                </br>
                 <a href="https://master--reliable-malabi-e4012b.netlify.app/" class="btn border button">Launch Weather
                     app</a>
             </div>
-            <div class="col-sm-6">
-                <img class="img-thumbnail img-fluid weather-image" src="images/weather.png" alt="adoption">
+            <div class="col-sm-6 d-none d-lg-block">
+                <img class="img-thumbnail img-fluid image" src="images/weather.png" alt="adoption">
 
 
             </div>
         </div>
-        <div class="row projects-display  ">
-            <div class="col-sm-6 ">
-                <img class="img-thumbnail img-fluid adoption-image" src="images/dictionary.png" alt="adoption">
+
+        <div class="row  ">
+            <div class="col-sm-6 d-none d-lg-block ">
+                <img class="img-thumbnail img-fluid max-width:70%; image" src="images/dictionary.png" alt="adoption">
             </div>
-            <div class="col-sm-6 ">
+            <div class="col-sm-5 ">
 
                 <p class="parragraph">
                     React-Dictionary app
                 </p>
-                <p>
+                <p class="m-5">
                     Once again using bootstrap, real-life development workflow, hosting, and advanced JavaScript. I
                     combined
                     all of
@@ -100,8 +126,9 @@
 
             </div>
         </div>
+    </div>
 
-        <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-instagram"></i>
 
 
     </div>

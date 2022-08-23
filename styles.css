@@ -2,16 +2,18 @@
     text-align: center;
     background-color: #F9F7FE;
     color: #000000;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
-h1 {
 
+
+h1 {
+    font-size: 64px;
     font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
-    font-size: 64px;
+    font-size: 54px;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
 }
@@ -25,5 +27,30 @@ p {
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     line-height: 30px;
+    text-align: center;
+
+
+}
+
+.parragraph {
+    margin: 30px 0px 30px 0px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+.weather-image {
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
 
 }
