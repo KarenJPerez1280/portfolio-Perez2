@@ -78,7 +78,7 @@ h5 {
 
 .parragraph {
     color: var(--primary-color);
-    margin: 30px 50px 30px 0px;
+    margin: 30px 50px 30px 50px;
     font-family: 'Libre Baskerville', serif;
     font-size: 22px;
     text-align: center;
@@ -140,7 +140,9 @@ i {
         font-size: 20px;
         margin-bottom: 0px;
 
+
     }
+
 
     .projects,
     .hero,
