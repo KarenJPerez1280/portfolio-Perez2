@@ -260,3 +260,8 @@ i {
 .footer {
     margin: 30px 0px;
 }
+
+.open-source {
+    text-decoration: none;
+    color: var(--primary-color);
+}
