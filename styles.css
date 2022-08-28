@@ -92,6 +92,14 @@ h5 {
 
 }
 
+.button-projects {
+    margin: 20px 172px;
+    background-color: #ffc10773;
+    color: var(--secondary-color);
+    display: block;
+
+}
+
 .button:hover {
     background-color: var(--primary-color);
 }
@@ -139,8 +147,12 @@ i {
     .parragraph {
         font-size: 20px;
         margin-bottom: 0px;
+    }
 
-
+    .button-projects {
+        display: block;
+        text-align: center;
+        margin: 30px 50px;
     }
 
 
